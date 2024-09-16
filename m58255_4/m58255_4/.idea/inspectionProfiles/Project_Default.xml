@@ -1,0 +1,61 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="reportlab" />
+            <item index="1" class="java.lang.String" itemvalue="XlsxWriter" />
+            <item index="2" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="3" class="java.lang.String" itemvalue="openai" />
+            <item index="4" class="java.lang.String" itemvalue="docx" />
+            <item index="5" class="java.lang.String" itemvalue="numpy" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="odoo.api.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="server" />
+          <option value="server" />
+          <option value="server" />
+          <option value="server" />
+          <option value="server" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="null:Werkzeug:2.0.2" />
+          <option value="null:urllib3:1.26.5" />
+          <option value="null:requests:2.25.1" />
+          <option value="null:libsass:0.20.1" />
+          <option value="null:idna:2.10" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
